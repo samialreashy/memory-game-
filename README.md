@@ -7,7 +7,7 @@
 
 ### Sprint 1
 
-###Game Descrption
+### Game Descrption
 Memory Match is a card matching game. The board has a grid of face-down cards, and each card has a matching pair hidden somewhere on the grid. On each turn, the player flips over two cards. If they match, they stay face up. If they don't, they flip back over, and the player tries again.
 
 The player wins by matching all the pairs before running out of moves. If the moves run out first, the game ends. The player can then press Play Again to start a new round.
