@@ -1,0 +1,54 @@
+body{
+    background-color:#1E293B;
+}
+h1{
+    text-align: center;
+    color: #F8FAFC;
+}
+p{
+    text-align: center;
+    color:#CBD5E1;
+}
+.startgame{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+    
+}
+
+.cardClass{
+    display: grid;
+    /* this means make four columes with this width */
+    grid-template-columns:repeat(4,100px) ;
+    gap: 10px;
+    padding: 10px;
+    border: 16px;
+    place-content: center;
+    
+}
+.back{
+    width: 100px;
+    height: 100px;
+    border-radius: 8px;
+    /* when I added the .black class nothing appear in the screen so the whole issue is about the color of the cards */
+    background-color: rgb(192, 111, 192);
+}
+.card{
+    border-radius: 8px;
+    cursor: pointer;
+    height: 100px;
+}
+/* the first .cardClass working fine but the pictures are mixed with each other so i used this to fix it  */
+.front img{
+    width: 100%;
+}
+.front{
+    display: none;
+}
+.card.flipped .front{
+    display:block;
+}
+.card.flipped  .back{
+    display: non;
+}
