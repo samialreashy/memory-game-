@@ -50,5 +50,5 @@ p{
     display:block;
 }
 .card.flipped  .back{
-    display: non;
+    display: none;
 }
