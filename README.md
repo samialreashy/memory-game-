@@ -1,4 +1,4 @@
-<img width="787" height="815" alt="memory_game" src="<img width="787" height="815" alt="memory_game" src="https://github.com/user-attachments/assets/image.png" />" />
+<img width="787" height="815" alt="memory_game" src="<img width="787" height="815" alt="memory_game" src="<img width="787" height="815" alt="memory_game" src="assests/image.png" />" />" />
 
 [Play the game](https://samialreashy.github.io/memory-game-/)
 
