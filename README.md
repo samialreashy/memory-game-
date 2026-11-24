@@ -1,4 +1,4 @@
-<img width="787" height="815" alt="memory_game" src="<img width="787" height="815" alt="memory_game" src="<img width="787" height="815" alt="memory_game" src="assests/image.png" />" />" />
+<img width="787" height="815" alt="memory_game" src="assests/image.png" />
 
 [Play the game](https://samialreashy.github.io/memory-game-/)
 
@@ -42,4 +42,3 @@ End: PUT-END-DATE-HERE
 ## Credits
 
 - Shuffle: cards are picked at random from a list one by one using `splice`, then placed back on the board in that order
-- Reference: PUT-CREDIT-LINK-HERE
