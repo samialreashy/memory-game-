@@ -9,7 +9,10 @@ let timerid=null
 let attempsNum=0
 let firstElement=null
 let lockcards=false
+
 const test=filpped[0].parentElement
+
+
 const randomFun=()=>{
     const remining=Array.from(filpped)
     filpped.forEach(()=>{
@@ -111,7 +114,7 @@ const updatetimer=()=>{
                 
           
        
-    }, 1000)
+    }, 500)
     firstElement=null
 } 
         

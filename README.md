@@ -1,19 +1,45 @@
-#Game Memory
-## Project Planning
+<img width="787" height="815" alt="memory_game" src="C:\Users\ireen\code\ga\projects\memory-game-\assests\image.png" />
 
-- [Project board](https://github.com/users/samialreashy/projects/1)
+[Play the game](https://samialreashy.github.io/memory-game-/)
 
-<img width="617" height="720" alt="Wireframe of memory game main screen" src="https://github.com/user-attachments/assets/21708100-d7b6-4985-9eeb-0a03318d0e39" />
+### Game description
 
-### Sprint 1
+Memory Game is a card matching game where players flip cards to find matching pairs before the time runs out. The cards are shuffled into random positions every time a new round begins, so no two games look the same. The player has 30 seconds to find all the matching pairs.
 
-### Game Descrption
-Memory Match is a card matching game. The board has a grid of face-down cards, and each card has a matching pair hidden somewhere on the grid. On each turn, the player flips over two cards. If they match, they stay face up. If they don't, they flip back over, and the player tries again.
+## How to Play
 
-The player wins by matching all the pairs before running out of moves. If the moves run out first, the game ends. The player can then press Play Again to start a new round.
+- Click **Start Game** to begin. The cards are shuffled and the 30 second timer starts.
+- Click a card to flip it and see the picture.
+- Click a second card to try to find its match.
+- If the two cards match, they stay face up.
+- If they do not match, they flip back after 1 second.
+- The **Matched Cards** counter goes up every time you find a pair.
+- Find all the matching pairs before the time ends to win.
+- Click **Play Again** to reset the timer and the score and shuffle the cards.
 
-Goal: Build a playable memory game where the player can read the instructions, see a grid of face-down cards, flip two cards, and see whether they match.
+## Features
 
+- Cards shuffle randomly every time the game starts or restarts
+- 30 second countdown timer
+- Matched pairs stay open
+- Cards cannot be clicked before the game starts
+- Cards are locked for a moment while two wrong cards are showing, so the player cannot flip a third card
+- The same card cannot be clicked twice to make a match
 
-Start: November 16, 2026
-End: November 24, 2026
+## Techs Used
+
+- HTML
+- CSS
+- JavaScript
+
+## Getting Started
+
+Goal: Build the basic game layout and functionality, allowing the player to start the game, flip cards, match pairs, and see the timer and matched cards counter updated.
+
+Start: PUT-START-DATE-HERE
+End: PUT-END-DATE-HERE
+
+## Credits
+
+- Shuffle: cards are picked at random from a list one by one using `splice`, then placed back on the board in that order
+- Reference: PUT-CREDIT-LINK-HERE

@@ -1,47 +1,61 @@
 body{
     background-color:#1E293B;
+    font-family: Arial, sans-serif;
 }
 h1{
     text-align: center;
     color: #F8FAFC;
+    margin-bottom: 5px;
 }
 p{
     text-align: center;
     color:#CBD5E1;
+    margin: 8px 0;
 }
 .startgame{
     display: flex;
     justify-content: center;
     align-items: center;
     gap: 15px;
-    
+    margin: 15px 0;
 }
-
+button{
+    padding: 8px 20px;
+    border: none;
+    border-radius: 8px;
+    background-color: #A855F7;
+    color: white;
+    font-size: 16px;
+    cursor: pointer;
+}
+button:hover{
+    background-color: #9333EA;
+}
 .cardClass{
     display: grid;
-    /* this means make four columes with this width */
-    grid-template-columns:repeat(4,100px) ;
+    grid-template-columns:repeat(4,100px);
     gap: 10px;
     padding: 10px;
-    border: 16px;
     place-content: center;
-    
 }
 .back{
     width: 100px;
     height: 100px;
     border-radius: 8px;
-    /* when I added the .black class nothing appear in the screen so the whole issue is about the color of the cards */
     background-color: rgb(192, 111, 192);
 }
 .card{
     border-radius: 8px;
     cursor: pointer;
     height: 100px;
+    transition: transform 0.2s;
 }
-/* the first .cardClass working fine but the pictures are mixed with each other so i used this to fix it  */
+.card:hover{
+    transform: scale(1.05);
+}
 .front img{
     width: 100%;
+    border-radius: 8px;
 }
 .front{
     display: none;
@@ -49,6 +63,10 @@ p{
 .card.flipped .front{
     display:block;
 }
-.card.flipped  .back{
+.card.flipped .back{
     display: none;
+}
+.card.matched .front img{
+    border: 3px solid #34D399;
+    box-sizing: border-box;
 }
