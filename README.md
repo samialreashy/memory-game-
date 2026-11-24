@@ -36,8 +36,8 @@ Memory Game is a card matching game where players flip cards to find matching pa
 
 Goal: Build the basic game layout and functionality, allowing the player to start the game, flip cards, match pairs, and see the timer and matched cards counter updated.
 
-Start: PUT-START-DATE-HERE
-End: PUT-END-DATE-HERE
+Start: 16 November 2026
+End: 24 November 2026
 
 ## Credits
 
